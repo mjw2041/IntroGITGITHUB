@@ -1,11 +1,36 @@
 Paso para usar el GIT
+GIT BUSH: Abre la console para escibir los comandos
+COMANDOS
 
+GIT INIT  : Inicializar ( solo una vez )
 GIT STATUS: Muestra la informacion del Subdirectorio
+GIT ADD <nombre del archivo> : >Agregar un archivo al contenedor
+GIT ADD . : Agregar todos los archivos
+GIT LOG: VER log
+GIT checkout -- <nombre archivo> : vuelve el archivo a la version guardada en el contenedor
+GIT diff -- <nombre archivo> :Muestara la diferencia entre el archivo y el guardado en el contenedor
+GIT COMMIT -- Comitea los cambios antes aparece el archivo para escribir un mensaje
+GIT COMMIT -m <mensaje>-- Comitea los cambios permitiendo escribir el mensaje directamente, no abre el archivo
 
-1-. Inicializar el proyacto ( una sola vez )
+Configurarion 
+GIT config --global user.email "mweihmuller72@hotmail.com" : configurar direccion mail
+GIT config --global user.name "Weihmuller_Maximiliano"     : configurar nombre de usuario
+
+---------------------------------------------------------------------------------------------------------------------
+
+PROYECTO
+ 
+1-. Inicializar el proyecto ( una sola vez )
     GIT INIT
 
-2-. Pasar los archivos al STAGE ( dentro del proyecto)    
+2-. Configuracion
+GIT config --global user.email "mweihmuller72@hotmail.com"
+GIT config --global user.name "Weihmuller_Maximiliano"
+
+3-. Pasar los archivos al CONTENEDOR
     GIT ADD app.js
 
     GIT ADD . ( sube todo lo pendiente )
+
+4-. Crear el commit    
+    GIT COMMIT
