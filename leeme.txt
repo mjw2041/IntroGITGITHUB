@@ -1,0 +1,11 @@
+Paso para usar el GIT
+
+GIT STATUS: Muestra la informacion del Subdirectorio
+
+1-. Inicializar el proyacto ( una sola vez )
+    GIT INIT
+
+2-. Pasar los archivos al STAGE ( dentro del proyecto)    
+    GIT ADD app.js
+
+    GIT ADD . ( sube todo lo pendiente )
