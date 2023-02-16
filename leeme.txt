@@ -16,9 +16,22 @@ Configurarion
 GIT config --global user.email "mweihmuller72@hotmail.com" : configurar direccion mail
 GIT config --global user.name "Weihmuller_Maximiliano"     : configurar nombre de usuario
 
+GITHUB
+git remote add <nombreRepositorio> <direccion url del repositorio>: Crear el repositorio
+git push -u <repositorio GIT HUB> <rama> : Subir la informacion
+git clone <URL>: Clonar nuestro Proyecto
+
 PROYECYO  GITHUB
 Ename: introGit_Github
-url: 
+URL: https://github.com/mjw2041/IntroGITGITHUB.git
+
+echo "# IntroGITGITHUB" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/mjw2041/IntroGITGITHUB.git
+git push -u origin master
 
 
 ---------------------------------------------------------------------------------------------------------------------
@@ -39,3 +52,15 @@ GIT config --global user.name "Weihmuller_Maximiliano"
 
 4-. Crear el commit    
     GIT COMMIT
+
+GIT HUB
+5-. Crear el repositorio en GITHUB
+
+6-. Crear el repositorio 
+git remote add origin https://github.com/mjw2041/IntroGITGITHUB.git
+
+7-. Subir la informacion 
+git push -u origin master
+
+8-. Clonar
+git clone <URL>: Clonar nuestro Proyecto
